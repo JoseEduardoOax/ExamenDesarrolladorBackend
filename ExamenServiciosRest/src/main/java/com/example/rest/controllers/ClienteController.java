@@ -22,7 +22,7 @@ import com.example.rest.services.ClienteService;
 import com.example.rest.wrapper.ResponseWrapper;
 
 @RestController
-@RequestMapping("/NutriNET/cliente")
+@RequestMapping("/NutriNET/Cliente")
 public class ClienteController {
 	@Autowired
 	ClienteService clienteService;
